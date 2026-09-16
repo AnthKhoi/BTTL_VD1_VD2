@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" th:href="@{/products}">Product Management</a>
+            <div>
+                <a class="btn btn-outline-light" th:href="@{/products}">Products</a>
+            </div>
+        </div>
+    </nav>
+</header>
+</body>
+</html>
